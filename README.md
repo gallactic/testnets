@@ -1,2 +1,3 @@
-# testnets
-Gallactic TestNets
+# Biruni TestNets
+
+TestNets for Gallactic blockchain

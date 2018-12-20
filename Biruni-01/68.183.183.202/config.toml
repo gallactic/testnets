@@ -1,0 +1,46 @@
+[tendermint]
+seeds = ""
+persistentPeers = "808d01825539ce22400e7d8c62dc7a0196e42f80@68.183.183.16:50051,efdc73eb9179eedc13946a51a129efc5e24e9b7d@68.183.183.19:50051,36b09b419d014e7ce82f2750528c88e1f8cffa52@68.183.183.26:50051,b0fa6aedd0fcdd8887d179176137a458c0791707@68.183.183.143:50051,9a1ad3bc295cbb38001413ecd75baaccab2abd4d@68.183.183.194:50051,889f05f69f6da8472b9e8d3c8be94c4a90221dcc@68.183.183.245:50051,126aa2e7639c402c2460cac4f4069cde05baab67@68.183.183.254:50051,ff9cfa7742350f659a5f43f8686a360321fdd7d9@157.230.32.23:50051,5da25e4fb12db03b22ca5b6d11570d30c4a6a8c2@157.230.32.41:50051"
+listenAddress = "68.183.183.202:50051"
+moniker = "node6"
+tendermintRoot = "./data"
+
+[rpc]
+Enabled = true
+
+  [rpc.Server]
+
+    [rpc.Server.bind]
+    address = "68.183.183.202"
+    port = 1337
+
+    [rpc.Server.TLS]
+    tls = false
+    cert_path = ""
+    key_path = ""
+
+    [rpc.Server.CORS]
+    enable = false
+    allow_credentials = false
+    max_age = 0
+
+    [rpc.Server.HTTP]
+    json_rpc_endpoint = "/rpc"
+
+[grpc]
+Enabled = true
+ListenAddress = "68.183.183.202:50500"
+HTTPAddress = "68.183.183.202:50502"
+
+[logging]
+ExcludeTrace = false
+NonBlocking = false
+
+  [logging.RootSink]
+
+    [logging.RootSink.Output]
+    OutputType = "stderr"
+    Format = "json"
+
+[sputnikvm]
+web3Address = "wss://mainnet.infura.io/ws"
