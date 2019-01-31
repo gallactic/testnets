@@ -1,4 +1,4 @@
-# Biruni-01
+# Biruni-02
 
 Biruni TestNet for Gallactic blockchain
 
