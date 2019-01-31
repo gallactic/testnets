@@ -1,0 +1,145 @@
+[Tendermint]
+RootDir = "./data"
+ProxyApp = "gallactic"
+Moniker = "node6"
+FastSync = true
+DBBackend = "leveldb"
+DBPath = "data"
+LogLevel = "*:error"
+LogFormat = "plain"
+Genesis = ""
+PrivValidatorKey = ""
+PrivValidatorState = ""
+PrivValidatorListenAddr = ""
+NodeKey = "config/node_key.json"
+ABCI = "socket"
+ProfListenAddress = ""
+FilterPeers = false
+
+  [Tendermint.RPC]
+  RootDir = "./data"
+  ListenAddress = "tcp://localhost:0"
+  CORSAllowedOrigins = []
+  CORSAllowedMethods = [
+    "HEAD",
+    "GET",
+    "POST"
+  ]
+  CORSAllowedHeaders = [
+    "Origin",
+    "Accept",
+    "Content-Type",
+    "X-Requested-With",
+    "X-Server-Time"
+  ]
+  GRPCListenAddress = ""
+  GRPCMaxOpenConnections = 900
+  Unsafe = false
+  MaxOpenConnections = 900
+
+  [Tendermint.P2P]
+  RootDir = "./data"
+  ListenAddress = "tcp://68.183.183.202:50050"
+  ExternalAddress = ""
+  Seeds = ""
+  PersistentPeers = "9f5f8b04c6b4234a262668b3f125e49d77c6ed78@157.230.32.41:50050"
+  UPNP = false
+  AddrBook = "config/addrbook.json"
+  AddrBookStrict = true
+  MaxNumInboundPeers = 40
+  MaxNumOutboundPeers = 10
+  FlushThrottleTimeout = 100000000
+  MaxPacketMsgPayloadSize = 1024
+  SendRate = 5120000
+  RecvRate = 5120000
+  PexReactor = true
+  SeedMode = false
+  PrivatePeerIDs = ""
+  AllowDuplicateIP = false
+  HandshakeTimeout = 20000000000
+  DialTimeout = 3000000000
+  TestDialFail = false
+  TestFuzz = false
+
+    [Tendermint.P2P.TestFuzzConfig]
+    Mode = 0
+    MaxDelay = 3000000000
+    ProbDropRW = 0.2
+    ProbDropConn = 0.0
+    ProbSleep = 0.0
+
+  [Tendermint.Mempool]
+  RootDir = "./data"
+  Recheck = true
+  Broadcast = true
+  WalPath = ""
+  Size = 5000
+  CacheSize = 10000
+
+  [Tendermint.Consensus]
+  RootDir = "./data"
+  WalPath = "data/cs.wal/wal"
+  TimeoutPropose = 3000000000
+  TimeoutProposeDelta = 500000000
+  TimeoutPrevote = 1000000000
+  TimeoutPrevoteDelta = 500000000
+  TimeoutPrecommit = 1000000000
+  TimeoutPrecommitDelta = 500000000
+  TimeoutCommit = 5000000000
+  SkipTimeoutCommit = false
+  CreateEmptyBlocks = true
+  CreateEmptyBlocksInterval = 0
+  PeerGossipSleepDuration = 100000000
+  PeerQueryMaj23SleepDuration = 2000000000
+  BlockTimeIota = 1000000000
+
+  [Tendermint.TxIndex]
+  Indexer = "kv"
+  IndexTags = ""
+  IndexAllTags = false
+
+  [Tendermint.Instrumentation]
+  Prometheus = false
+  PrometheusListenAddr = ""
+  MaxOpenConnections = 3
+  Namespace = "tendermint"
+
+[RPC]
+Enabled = true
+
+  [RPC.Server]
+
+    [RPC.Server.Bind]
+    Address = "68.183.183.202"
+    Port = 1337
+
+    [RPC.Server.TLS]
+    TLS = false
+    CertPath = ""
+    KeyPath = ""
+
+    [RPC.Server.CORS]
+    Enable = false
+    AllowCredentials = false
+    MaxAge = 0
+
+    [RPC.Server.HTTP]
+    JsonRpcEndpoint = "/rpc"
+
+[GRPC]
+Enabled = true
+ListenAddress = "68.183.183.202:50052"
+HTTPAddress = "68.183.183.202:50053"
+
+[Logging]
+ExcludeTrace = false
+NonBlocking = false
+
+  [Logging.RootSink]
+
+    [Logging.RootSink.Output]
+    OutputType = ""
+    Format = "json"
+
+[sputnikvm]
+web3Address = "wss://mainnet.infura.io/ws"
