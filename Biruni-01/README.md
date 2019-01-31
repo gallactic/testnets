@@ -20,54 +20,55 @@ Biruni TestNet for Gallactic blockchain
 ## Keys:
 ```json
 [
-   {
-     "private_key": "skarnbAXPW3V8ghYeMoVqgVBUXpThPY57nogwqcAyr6puVmWSztiaHAqsJoyG8Mg7vuvnu6gthQJ77ALWVPTpZzjREr5dXN",
-     "public_key": "pkpxYhBpYdnoNbBqnC1QV7WEA485x3gxNHCdzYfPRL5frhRxARZ",
-     "address": "acDFL6pp6Ci3fusmcBssH8TbN6EBESGT8fP",
+{
+     "private_key": "skVJaLixspJyLKMTPXieiysfrQ8sDQ2kvL41AdB42mj5Zz4D4MS7JuFXP2oq9kBJQWwruE6yHcPF2WWwLTasRQX6ub7vFPd",
+     "public_key": "pkyoAbjhGJHUVpHVSMiRNnWZ95tjJq3vg8aaF6sqm6KiMqUXGER",
+     "address": "acB3GQQYgJediwtYpLaEGPp86duwATL6wD7",
    },
    {
-     "private_key": "skpiPrPE53LGfL9Xo2kHMApLM1Jp8fWQwZm1iHmehZ15mdVJMKj4367uX4eHEmXGZ2YTcinVj2b53ksAUNJbTUrGRcmbPMA",
-     "public_key": "pj9RZG7Pb3RRsaH3qUvv1mtJioW8F9dHxRSQuBPKjAJnPuCwBtw",
-     "address": "acTc812qWuryC6LA5Vw1YCYFbunphmk3GJc",
+     "private_key": "skQrtsaQS24sXtst3JdSP7eJbiw4fYXXmsKD3KvT1XXSAQx5h7rASarnyZobokgm5qtXpLPfzY8H3bJ8kxvDUif5x2w8zwq",
+     "public_key": "pkBZLqyV6JLk7f4FU8cPSTp1tAX5gt1Fy7fPzEELo1k1yn6bugb",
+     "address": "acUojHXoM6XBKTA6xAzofZH6caiw9im288P",
    },
    {
-     "private_key": "skK4toGLDwSFLPTA8doXoNYnq3xoh2o2WbUmWdbnSGCQPgBww2AP8787A2BsBDcgBBoJqZh3bEoRBjesiuD8Cg6xfSh7CUc",
-     "public_key": "pjMTTM7H18dWu4NJVp1YfGVrtC8X5BWNQwQszNoVuxQg6H9gPGR",
-     "address": "acSM93hJwd64FC11Rz2gp4zHzemFxj44NkS",
+     "private_key": "skHDo2Zhc5DMb7Xei9wUFCNTEVxusUutCjT8HopQbGhKe3RDJD8ZxFLzyMVNtHp1zebsb7r3cxdg4hSyQtw8DAX1BkC2amB",
+     "public_key": "pkFns1nURUqPHsXZuhWKL5tRtgMvCbEx2etfGyKCRARvVG6e5Ls",
+     "address": "acDDF5hUVj2kiy2X6aoUZgqNuC9moDEm3ov",
    },
    {
-     "private_key": "skS9Dxes7hSo4vhuHDZdZhGWkd1GfQZ2QLCSjoPSpnde26sLVAUi3RKqsyaXAvKRAnNCzJwAzALkigCQHJFhkb3cCtc27QQ",
-     "public_key": "pkKmLkoRLuHRmkN61vfrYiuauXcRRAzdfkchLSSZatxhURVdq8y",
-     "address": "acK9DQkJGBXyCrzkbLkNCs4dAwgCHhrg3MF",
+     "private_key": "skQYGSseWYPCmpqKUoshu6xQPyxLd7yXxpWJmqDvFLVfx1pQhDribMFJ9EEiZuVxuNDaxzkpDgXffBtpxAeTW4vibyJcfkz",
+     "public_key": "pkk8N4BGoe2Y5EeH3fWygxHpPFoZ6ungW6dEPGsezgz4qEUvJB9",
+     "address": "acM8CWePz5aSLBtmcd8MhAg8Yv8hsJ9JFzb",
    },
    {
-     "private_key": "skWzUprmgDVB8DigHoC6D822UCm3aynQDW6dRpHH57EfdsTL8jA6nZ8zX3r31XHQSA9GH37c2LZATPC37wmk3SiXdXUSmJ1",
-     "public_key": "pjq6S2yhBou9mvatwPovxFTKnAz6PaWgzbHxDSVmCp6o2iEF1ND",
-     "address": "acPpKY6TR92ATnw6jxKJYrWXDSZLE126KhN",
+     "private_key": "skp3segzRTmoz16C2EoNnZ5za6vBtL3qa11inrL9fmidYvRagbJxfxS6KV5utLCWh7RqZyaugo4dh2dg7kdomCiSXUBdFMP",
+     "public_key": "pjyGyzXuNij7ESuH3LnprvsRiU2g15sKM1ZL3vnMKH3VXdwBwCj",
+     "address": "acWYWfisYrPxG7mUi3QzTSX2nL4eDUxLary",
    },
    {
-     "private_key": "skPb3zcKZfTovD1o6sXbdU9qiCXJM9TgsTba6G5wvFMMPp4rjcpSCN8ehF9gk2kNBRKTwdp7WuSoEZ6UWNfkjFE2JjW2Soe",
-     "public_key": "pjLPLyv4o1sUA4NJQ4VHiHy3e1WVa5NJ9Dp6LtMKYvJqKTbtB2Q",
-     "address": "acQec2BgGg3V246dRmCRXw4KS8eNKf1KAkX",
+     "private_key": "skisTGHmeCwheFRsfd2ruwFKbn7BodAaMAKFqeTVs7EURtE7qKmESRsiKnVuc6MCFwxXtR9YxCTuGGCauYqoouEHRUicTfi",
+     "public_key": "pkf8yUjAgwGcWqV2JRZKYX7AXhqdSCag1qwJbqFnGJYQG4aayV3",
+     "address": "acWrF7X25qkPXuWuHijgs38c84FCUDdcU2v",
    },
    {
-     "private_key": "skcc8MVc1kauRQBasQ6Uvn5hLp3quutwgfBoscf5PKFFT4z6MyEWKCzL1f3rPqdnJh8Z8wMTy76ERocCkHzp8xLz1wSnqBw",
-     "public_key": "pk8DbWedvYi7Ak9nbhETP5QjEYYTpFHmaVpe44Nog9mqbbofSdF",
-     "address": "acNKPQrPtcpkawRBhVEz4j3nBViRNYqy7eC",
+     "private_key": "skYkoeHwHT4Kqs71Eo3XGrQdezckEPgLu6iHRgRC7BXW3wXGB61mSUeNVJX9MotY5Pnf14tnvcDJvTySb358RFCVxByUpNC",
+     "public_key": "pj7WUczmm5JAf3Sqn77KeJ8V4fCghMUNYr5gEpxKJvRFmDaMXRe",
+     "address": "acFbiEqkZEbNXtXihJ7hPtZUfs7FxN2PRWr",
    },
    {
-     "private_key": "skpzWasufUseyw7heH5TNhoSC2r7vdXm7JjnMuY2TVNMmHXuvM9uAfwggJ7u1DAvRPEGpmFSceFtWifLf713EQYujp4pXsY",
-     "public_key": "pknsXoF7xpFQuqYiJpsxEeRujFXpQ9b5A5AJJag1XwE35PydvdW",
-     "address": "acDpaPS2eR8hxm6tdkoBzDAUyq5C6CVfbSQ",
+     "private_key": "skgyxfUwjKWCDVByGkkPZ9DJP6LeU2h4jfrPFdXZCg4JbjTWfDYtbXcnfVgvGNbm2DL7EvPDbbui8aQ9WKcjbTr8eBP5Fvf",
+     "public_key": "pkJYpMjaLiJyu5JqzWN5cuDe3Aa19A6BL7Qa2y2Ft2VdHEeNijQ",
+     "address": "ac8rG1xeEdNu35kRfaMuoGqoi7rqMw1D84m",
    },
    {
-     "private_key": "skJsAc7E6Z4WfPkXiQyG1z5HYS5R6AJbJrHZCQuTKQZ5xZSQyeLprs7du55U7qQX5Dcw6vwp3enmyYo2mwaKmxaCnwrqG3F",
-     "public_key": "pkMbgKmhc7WPN3MTDQUKvMEYCof61w9AvqhXQqcofH5prQQdrWU",
-     "address": "acSLZYMzgdVorheNqCzbB8jksXRVm7xojUN",
+     "private_key": "skQN9My7Jbczy9CA5kzNTvn12z6MzgMP4gmKt8nqgzGzTBdDpi3HdrupfHDxcgUmfBhD4AcNSxD3n6pMk8SBv8uGCJUj25X",
+     "public_key": "pjncELDBNodnaNxGB8a3cZNsBZgqxCaq4SGmteKMw2rG9bGndyW",
+     "address": "ac9EhfCeLrP13xnuEvoMEePumhxzq5p25Pp",
    },
    {
-     "private_key": "skVTmi3rGQBoRNs1B4Pib4mhAieoGZDjkDkfSMtsgkGauBtNJdvZJgu71BNfxbeVrJqvMQvtEkArYUWaHJcyfu8fXF1UXrd",
-     "public_key": "pjvoCBpGgETQ5wxN8bK7XhFgfnb3TERjJ4keKzU3rw7rzkHVinD",
-     "address": "ac8eCG3Z81eaPuMa75J3w4vKmQSnRCpPSgT",
-   },
+     "private_key": "skg1qk3nrvJNmfXyTL59ZZTrfw1XMzrTF83BdhPhJnWvnSsaqbphQ5sHvEDRqZmYEm1uV9hBVGboH6UWrbd525KiAy2vuR8",
+     "public_key": "pj9SfmPZCDm4RFf2qgoiRTv4EwvKrpFsAhb6hVbuwJde6nBud1R",
+     "address": "acH95UeixSt6Swf55L5zPWnnstpbnvWukv4",
+   }
+]
 ```
