@@ -20,7 +20,7 @@ Biruni TestNet for Gallactic blockchain
 ```json
 [
    {
-     "address": "acDFL6pp6Ci3fusmcBssH8TbN6EBESGT8fP", (admin)
+     "address": "acUxznd1CREaY8SZnyEyGc8EvsqaBmRosc1", (admin)
    },
    {
      "private_key": "skmEVCKrATj7RSzEuqoz764Sma3TRepHfjyTzKTdV6jYwPZ4f5VLYj9vcBjwcX6raBcsHuoPEuPQpcY8Cu8G3Ku8gjPVQSL",
